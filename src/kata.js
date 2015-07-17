@@ -11,5 +11,5 @@ Hint: You are guaranteed that the number in the passed in string is placed somew
 
 function getQuote(quotes, hero) {
     "use strict";
-    return "Name: quote";
+    return {R: 'Robin', J: 'Joker', B: 'Batman'}[hero[0]] + ': ' + quotes[hero.match(/\d+/)[0]];
 }
