@@ -1,8 +1,8 @@
 {
   "name": "js-karma-kata-seed",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start --single-run",
-    "karma": "./node_modules/karma/bin/karma start"
+    "test": "karma start --single-run",
+    "karma": "karma start"
   },
   "repository": {
     "type": "git",

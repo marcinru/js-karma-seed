@@ -5,16 +5,16 @@
 
 Clone this repo with `git`:
 
-    git clone https://github.com/kata-seeds/js-karma-seed.git
+    git clone https://github.com/marcinru/js-karma-seed.git
     cd js-karma-seed
 
-Install dependencies and run your tests with `make`:
+Install dependencies with `npm`:
 
-    make
+    npm install
 
-You should eventually see 1 test ran and 0 failures. If `make` doesn't work for you, npm probably has some comments that can help you out, otherwise please open an issue.
+To run your tests use `npm test` to run once or use
 
-To run your tests during a kata, use `npm test` to run once, or use `npm run karma` to
-use a watcher to check for file changes.
+    npm run karma
 
-Now you can start your kata! May we suggest the [Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life)?
+to use a watcher to check for file changes.
+You should eventually see 1 test ran and 0 failures.
