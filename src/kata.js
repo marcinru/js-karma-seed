@@ -19,6 +19,6 @@ function getQuote(quotes, hero) {
     return "Name: quote";
 }
 
-function getHerosName(hero) {
+function getHeroName(hero) {
     return;
 }

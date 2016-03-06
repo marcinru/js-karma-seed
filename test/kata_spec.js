@@ -15,12 +15,14 @@
  the first 3 characters of the string. The quotes either belong to Batman, Robin, or Joker.
  */
 
-describe("getQuote", function () {
-    //var quotes = ["WHERE IS SHE?!", "Holy haberdashery, Batman!", "Let's put a smile on that faaaceee!"];
-
-    it("returns hero name", function () {
-        expect(getHerosName("Rob1n")).toBe("Robin");
+describe("getHeroName", function () {
+    it("returns name 'Robin' for passed string 'Rob1n'", function () {
+        expect(getHeroName('Rob1n')).toBe('Robin');
     });
+});
+
+describe("getQuote", function () {
+    var quotes = ["WHERE IS SHE?!", "Holy haberdashery, Batman!", "Let's put a smile on that faaaceee!"];
 
     /*it("returns a Robin's quote", function () {
         expect(getQuote(quotes, "Rob1n")).toBe("Robin: Holy haberdashery, Batman!");
