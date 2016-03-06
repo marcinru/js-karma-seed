@@ -16,11 +16,16 @@
  */
 
 describe("getQuote", function () {
-    var quotes = ["WHERE IS SHE?!", "Holy haberdashery, Batman!", "Let's put a smile on that faaaceee!"];
-    it("returns a Robin's quote", function () {
+    //var quotes = ["WHERE IS SHE?!", "Holy haberdashery, Batman!", "Let's put a smile on that faaaceee!"];
+
+    it("returns hero name", function () {
+        expect(getHerosName("Rob1n")).toBe("Robin");
+    });
+
+    /*it("returns a Robin's quote", function () {
         expect(getQuote(quotes, "Rob1n")).toBe("Robin: Holy haberdashery, Batman!");
     });
-    /*it("returns a Joker's quote", function () {
+    it("returns a Joker's quote", function () {
         expect(getQuote(quotes, "Joke2")).toBe("Joker: Let's put a smile on that faaaceee!");
     });
     it("returns a Batman's quote", function () {
