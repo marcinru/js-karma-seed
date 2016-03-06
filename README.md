@@ -19,5 +19,5 @@ to use a watcher to check for file changes.
 You should eventually see 1 test ran and 0 fails.
 Try to fix it.
 
-**Hint for WebStorm users**
+**Hint for WebStorm users:**
 *You can right click the karma.conf.js file to run the tests.*
