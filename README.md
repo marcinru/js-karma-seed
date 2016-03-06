@@ -7,6 +7,10 @@ Clone this repo with `git`:
     git clone https://github.com/marcinru/js-karma-seed.git
     cd js-karma-seed
 
+Switch to branch `batman`:
+
+    git checkout batman
+
 Install dependencies with `npm`:
 
     npm install
